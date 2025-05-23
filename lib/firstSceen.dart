@@ -35,36 +35,179 @@ class FirstApp extends StatelessWidget {
         ],
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 5),
-          Text("Google"),
-          SizedBox(height: 5),
+          SizedBox(height: 10),
           Row(
-            children: [
-              Text("Whatsapp"),
-              SizedBox(width: 10),
-              Icon(Icons.import_contacts),
-              SizedBox(width: 6),
-              Icon(Icons.settings),
-            ],
-          ),
-          SizedBox(height: 5),
-          Text("Microsoft"),
-          SizedBox(height: 5),
-          Row(
-            children: [
-              Icon(Icons.person_3),
-              SizedBox(width: 5),
-              Text("Ayaz"),
-              SizedBox(width: 40),
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
-              Column(children: [Text("Cheeku"), Text("Kaisy Ho")]),
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Icon(Icons.person, size: 40),
+                  SizedBox(width: 10),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Huzaifa Waheed",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text("Ki kar ryan?"),
+                    ],
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Text("11:06 PM"),
+                  Icon(Icons.done_all, color: Colors.blue),
+                ],
+              ),
             ],
           ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Icon(Icons.person_2, size: 40),
+                  SizedBox(width: 10),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Saffi Ur Rehman",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text("Chal Chaliye"),
+                    ],
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Text("11:12PM"),
+                  Icon(Icons.done_all, color: Colors.blue),
+                ],
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Icon(Icons.person_2_outlined, size: 40),
+                  SizedBox(width: 10),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Ibtehaj Ul Deen",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text("Aj aya nai tu?"),
+                    ],
+                  ),
+                ],
+              ),
+              Column(children: [Text("11:15 PM"), Icon(Icons.done_all)]),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Icon(Icons.person_3, size: 40),
+                  SizedBox(width: 10),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Wasay Qureshi",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text("Tayari kar ly paper ki"),
+                    ],
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Text("11:16 PM"),
+                  Icon(Icons.done_all, color: Colors.blue),
+                ],
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            children: [
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Icon(Icons.people, size: 40),
+                  SizedBox(width: 10),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "F21 M2 Official",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text("Aj class nai hogi"),
+                    ],
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Text("11:17 PM"),
+                  Icon(Icons.done_all, color: Colors.blue),
+                ],
+              ),
+            ],
+          ),
+          SizedBox(height: 10),
+
+          
         ],
+        
       ),
+      
     );
   }
 }
