@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/firstSceen.dart';
+
+import 'package:whatsapp/seconcl.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const FirstApp(),
+      home: const MyPractice(),
       debugShowCheckedModeBanner: false,
     );
   }
